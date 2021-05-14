@@ -1,3 +1,3 @@
 * This is a repo
 
-* * smaller details
+** smaller details
