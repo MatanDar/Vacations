@@ -1,0 +1,78 @@
+.navbar {
+    font-family: sans-serif;
+    display: flex;
+    background-color: rgb(0, 53, 128);
+    height: 66px;
+    position: fixed !important;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: cornsilk;
+    padding-left: 10px;
+}
+
+
+.logo {
+    cursor: pointer;
+    color: cornsilk;
+    width: 55%;
+    padding: 0 0 0 0%;
+    font-size: 28px;
+    color: rgb(8, 150, 255);
+    font-weight: 800;
+}
+
+.navbar span {
+    margin: 0 0 0 5px;
+    font-size: 24px;
+}
+
+.logo2 {
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.user-name {
+    display: flex;
+    font-weight: 700;
+}
+
+.userName {
+    color: rgb(8, 150, 255);
+}
+
+@media only screen and (max-width: 728px) {
+    .navbar {
+        width: 99%;
+        position: relative;
+        left: 0%;
+    }
+    .logo {
+        width: 23%;
+        font-size: 17px;
+    }
+    .logo2 {
+        font-size: 17px;
+    }
+    .user-name {
+        font-size: 13px;
+    }
+    .nav-pics {
+        font-size: 16px !important;
+    }
+    .search-query {
+        display: block;
+        width: -webkit-fill-available;
+    }
+    .search-wrap {
+        text-align: -webkit-center;
+    }
+}

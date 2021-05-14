@@ -1,0 +1,18 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.border-nav {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}

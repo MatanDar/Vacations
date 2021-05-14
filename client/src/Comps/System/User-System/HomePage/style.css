@@ -1,0 +1,55 @@
+.vacation-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0 80px 0;
+    margin: 7% 0 0 0 !important;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    width: 28%;
+    margin: 0 3% 20px 0;
+    padding: 1%;
+    position: relative;
+}
+
+.demoObject {
+    -webkit-box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.37);
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.37);
+    background: #FFFFFF;
+}
+
+.card-media {
+    height: 0;
+    padding-Top: 56.25%;
+}
+
+.card-root {
+    background-color: rgb(8, 150, 255)!important;
+    max-Width: 345px;
+    width: 28%;
+    margin: 15px 2% 20px 2%;
+    position: relative;
+    border-radius: 20px !important;
+    min-width: 281px;
+}
+
+.MuiCardContent-root {
+    text-align: center;
+    font-family: system-ui;
+}
+
+span {
+    font-size: 19px;
+    font-family: revert;
+    font-weight: 900;
+}
+
+.MuiCardHeader-content span {
+    font-family: system-ui;
+}
+
+.wrap-nav {
+    min-height: 500px;
+}

@@ -1,0 +1,39 @@
+@media only screen and (max-width: 728px) {
+    .navbar{
+        width: 99%;
+        position: fixed;
+        left: 0%;
+        z-index: 1;
+
+    }
+    .link{
+        padding-left: 0%;
+
+    }
+    .logo{
+        width: 23%;
+        font-size: 17px;
+    }
+    .logo2{
+        font-size: 17px;
+    }
+    .user-name{
+        font-size: 13px;
+
+    }
+    .nav-pics{
+        font-size: 16px !important;
+    }
+    .search-query{
+        display: block;
+        width: -webkit-fill-available;
+    }
+    .search-wrap{
+        text-align: -webkit-center;
+    }
+    .welcome-page{
+        text-align: -webkit-center;
+        background-image: url('../../pics/apple-375x812-Caribbean-Nassau-Bahamas-164908967.jpg');
+        background-size: cover;
+    }
+    }

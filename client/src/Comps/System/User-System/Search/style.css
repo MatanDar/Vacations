@@ -1,0 +1,45 @@
+.search-wrap {
+    text-align: center;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.input-destination {
+    border: 5px solid rgb(254, 187, 2);
+    cursor: pointer;
+    height: 38px;
+    text-align: center;
+}
+
+.input-search {
+    height: 40px;
+    cursor: pointer;
+    border: 5px solid rgb(254, 187, 2);
+    text-align: center;
+}
+
+.btn-search {
+    background-color: rgb(0, 89, 153);
+    border: 5px solid rgb(254, 187, 2);
+    font-size: 21px;
+    height: 50px;
+    color: white;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+    width: 8%;
+
+}
+
+.btn-clear {
+    background-color: green;
+    border: 5px solid rgb(254, 187, 2);
+    font-size: 21px;
+    color: white;
+    height: 50px;
+    position: relative;
+    top: 8px;
+    width: 8%;
+    cursor: pointer;
+}
+
